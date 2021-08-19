@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.28.105](https://github.com/brave/brave-browser/releases/tag/v1.28.105)
+
+ - Updated the custom header list to be hard-coded. ([#16455](https://github.com/brave/brave-browser/issues/16455))
+ - Updated adblocking to collapse HTML elements with blocked image or iframe requests. ([#14960](https://github.com/brave/brave-browser/issues/14960))
+ - Removed the mention of Gmail under the "Safe Browsing" settings. ([#16181](https://github.com/brave/brave-browser/issues/16181))
+ - Fixed Brave Rewards wallet being reset after upgrading in certain cases. ([#16449](https://github.com/brave/brave-browser/issues/16449))
+
+## [1.27.111](https://github.com/brave/brave-browser/releases/tag/v1.27.111)
+
+ - Fixed users not being rewarded for New Tab Page Sponsored Image views in certain cases. ([#17352](https://github.com/brave/brave-browser/issues/17352))
+ - Fixed ads from split groups not being displayed in certain cases. ([#17199](https://github.com/brave/brave-browser/issues/17199))
+ - Fixed Brave ads database failing to upgrade in certain cases. ([#17231](https://github.com/brave/brave-browser/issues/17231))
+ - Upgraded Chromium to 92.0.4515.131. ([#17306](https://github.com/brave/brave-browser/issues/17306)) ([Changelog for 92.0.4515.131](https://chromium.googlesource.com/chromium/src/+log/92.0.4515.115..92.0.4515.131?pretty=fuller&n=10000))
+
 ## [1.27.109](https://github.com/brave/brave-browser/releases/tag/v1.27.109)
 
  - Added new hourly options under “Maximum number of ads displayed” for Brave Ads notifications. ([#16228](https://github.com/brave/brave-browser/issues/16228))

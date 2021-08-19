@@ -1,11 +1,30 @@
 # Changelog
 
+## [1.28.105](https://github.com/brave/brave-browser/releases/tag/v1.28.105)
+
+ - Added display ads to the Brave News feed. ([#16698](https://github.com/brave/brave-browser/issues/16698))
+ - Added setting to "Automatically send daily usage ping to Brave" under brave://settings/privacy. ([#16583](https://github.com/brave/brave-browser/issues/16583))
+ - Added support for additional currencies in the Gemini widget. ([#16081](https://github.com/brave/brave-browser/issues/16081))
+ - Added the ability for users to rotate IPFS keys. ([#15568](https://github.com/brave/brave-browser/issues/15568))
+ - Added p2p key export for IPFS. ([#16613](https://github.com/brave/brave-browser/issues/16613))
+ - Updated the placement of "Privacy and security" section under brave://settings. ([#16470](https://github.com/brave/brave-browser/issues/16470))
+ - Updated the custom header list to be hard-coded. ([#16455](https://github.com/brave/brave-browser/issues/16455))
+ - Updated adblocking to collapse HTML elements with blocked image or iframe requests. ([#14960](https://github.com/brave/brave-browser/issues/14960))
+ - Updated icons used for certain file types when Brave is set as the default application. ([#12761](https://github.com/brave/brave-browser/issues/12761))
+ - Updated the bookmarks folder icon on the bookmarks bar. ([#16940](https://github.com/brave/brave-browser/issues/16940))
+ - Updated the Ads History view from 7 days to 30 days. ([#16627](https://github.com/brave/brave-browser/issues/16627))
+ - Removed duplicate separator under right click context menu. ([#15714](https://github.com/brave/brave-browser/issues/15714))
+ - Fixed Brave Rewards wallet being reset after upgrading in certain cases. ([#16449](https://github.com/brave/brave-browser/issues/16449))
+ - Fixed IPFS migration. ([#16913](https://github.com/brave/brave-browser/issues/16913))
+ - Fixed "Connected peers" not being reset to 0 once IPFS node is stopped. ([#16804](https://github.com/brave/brave-browser/issues/16804))
+ - Fixed delete button not appearing on brave://history when using the search box. ([#7398](https://github.com/brave/brave-browser/issues/7398))
+
 ## [1.27.111](https://github.com/brave/brave-browser/releases/tag/v1.27.111)
 
  - Fixed users not being rewarded for New Tab Page Sponsored Image views in certain cases. ([#17352](https://github.com/brave/brave-browser/issues/17352))
  - Fixed ads from split groups not being displayed in certain cases. ([#17199](https://github.com/brave/brave-browser/issues/17199))
  - Fixed Brave ads database failing to upgrade in certain cases. ([#17231](https://github.com/brave/brave-browser/issues/17231))
- - Upgraded Chromium to 92.0.4515.131. ([#17306](https://github.com/brave/brave-browser/issues/17306)) ([Changlog for 92.0.4515.131](https://chromium.googlesource.com/chromium/src/+log/92.0.4515.115..92.0.4515.131?pretty=fuller&n=10000))
+ - Upgraded Chromium to 92.0.4515.131. ([#17306](https://github.com/brave/brave-browser/issues/17306)) ([Changelog for 92.0.4515.131](https://chromium.googlesource.com/chromium/src/+log/92.0.4515.115..92.0.4515.131?pretty=fuller&n=10000))
 
 ## [1.27.109](https://github.com/brave/brave-browser/releases/tag/v1.27.109)
 
